@@ -21,7 +21,8 @@ class FaceDetector:
             faces = DeepFace.extract_faces(
                 img_path=img_rgb,
                 detector_backend=DETECTOR_BACKEND,
-                enforce_detection=True
+                enforce_detection=True,
+                normalize_face=False,
             )
 
             face_count = len(faces)
