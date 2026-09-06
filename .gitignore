@@ -1,0 +1,30 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# DeepFace / Model weights cache
+.deepface/
+weights/
+*.h5
+*.onnx
+
+# Project Study Guide (local only)
+PROJECT_EXPLANATION.md
+
+# IDE & OS files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
