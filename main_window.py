@@ -219,7 +219,7 @@ class MainWindow(QWidget):
 
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Face Matching Mini Tool")
+        self.setWindowTitle("Face Matching Tool")
         self.worker = None
 
         self.setStyleSheet("""

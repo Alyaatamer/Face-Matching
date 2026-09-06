@@ -1,4 +1,4 @@
-# Face Matching Mini Tool
+# Face Matching Tool
 
 A desktop face verification application that compares two facial images to determine if they belong to the same person.
 
