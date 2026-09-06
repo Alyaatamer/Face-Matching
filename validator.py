@@ -10,7 +10,7 @@ logger = logging.getLogger(__name__)
 class Validator:
 
     image_extensions = {'.jpg', '.jpeg', '.png', '.bmp', '.tiff', '.webp'}
-    MaxImageSize = 1024 * 1024 * 20
+    MaxImageSize = 1024 * 1024 * 20 #20MB
 
     @staticmethod
     def load_image_safely(file_path: str):

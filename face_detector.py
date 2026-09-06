@@ -40,8 +40,4 @@ class FaceDetector:
             logger.error("Error in detect_and_count for '%s': %s", file_path, e, exc_info=True)
             return 0, f"An unexpected error occurred during face detection: {str(e)}", None, None
 
-    @staticmethod
-    def count_faces(file_path: str) -> tuple[int, str]:
-        count, msg, _, _ = FaceDetector.detect_and_count(file_path)
-        return count, msg
 

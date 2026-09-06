@@ -17,9 +17,6 @@ weights/
 *.h5
 *.onnx
 
-# Project Study Guide (local only)
-PROJECT_EXPLANATION.md
-
 # IDE & OS files
 .vscode/
 .idea/
